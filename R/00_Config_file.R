@@ -192,7 +192,7 @@ chron_order <-
 #--------------------------------------------------#
 
 # Chronology needs to have at least X control points [example: X=2]
-min_n_of_control_points <- 2 # [USER]
+min_n_of_control_points <- 5 # [USER]
 
 # If the thickness of a control point is missing, assign X cm [example: X=1]
 default_thickness <- 1 # [USER]
@@ -230,11 +230,11 @@ iteration_multiplier <- 5 # [USER]
 filter_by_pollen_sum <- TRUE # [USER]
 
 # Each stratigraphic level of at least X individual pollen gains [example: X=0]
-min_n_grains <- 0 # [USER]
+min_n_grains <- 125 # [USER]
 # Ideal number of counts
-target_n_grains <- 100 # [USER]
+target_n_grains <- 150 # [USER]
 # Threshold of number of samples with ideal counts
-percentage_samples <- 0 # [USER]
+percentage_samples <- 75 # [USER]
 
 #----------------------------------------#
 
@@ -249,7 +249,7 @@ filter_by_age_limit <- TRUE # [USER]
 filter_by_extrapolation <- TRUE # [USER]
 
 # How much age can be extrapolated beyond the oldest chronology control point?
-maximum_age_extrapolation <- Inf # [USER]
+maximum_age_extrapolation <- 3000 # [USER]
 
 #----------------------------------------#
 
@@ -265,7 +265,7 @@ filter_by_number_of_levels <- TRUE # [USER]
 
 # At least X number of stratigraphic levels within the period
 #   of interest [example: X=3]
-min_n_levels <- 3
+min_n_levels <- 5
 
 #----------------------------------------#
 
