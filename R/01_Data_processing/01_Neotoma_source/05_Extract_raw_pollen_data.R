@@ -73,6 +73,36 @@ RUtilpol::output_heading(
   size = "h2"
 )
 
+neotoma_eco_group <-
+  neotoma_sites_sample_depth %>%
+  dplyr::mutate(
+    counts_eco = purrr::map(
+      .progress = "Extracting raw counts",
+      .x = samples,
+      .f = ~ .x %>%
+        tidyr::unnest(sample_detail) %>%
+        dplyr::filter(
+          elementtype %in% sel_var_element # [config_criteria]
+        ) %>%
+        dplyr::distinct(variablename, ecologicalgroup)
+    )
+  ) %>%
+  dplyr::select(
+    counts_eco
+  ) %>%
+  tidyr::unnest(counts_eco) %>%
+  dplyr::distinct(variablename, ecologicalgroup)
+
+RUtilpol::save_latest_file(
+  object_to_save = neotoma_eco_group,
+  dir = paste0(
+    data_storage_path, # [config_criteria]
+    "/Data/Input/Eco_group/"
+  ),
+  prefered_format = "rds",
+  use_sha = TRUE
+)
+
 RUtilpol::output_comment(
   msg = paste(
     "For the explannation of ecological groups aberrations, please see\n",
