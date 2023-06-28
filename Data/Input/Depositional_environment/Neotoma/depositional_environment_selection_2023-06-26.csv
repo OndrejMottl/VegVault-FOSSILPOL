@@ -1,0 +1,125 @@
+depositionalenvironment,dep_env_level_1,dep_env_level_2,dep_env_level_3,dep_env_level_4,include
+Abrocoma Midden,Animal Midden,Biological,Biological,Biological,FALSE
+Aeolian,Terrestrial,Terrestrial,Terrestrial,Terrestrial,FALSE
+Alluvial fan,Riverine,Riverine,Riverine,Riverine,FALSE
+Animal Midden,Biological,Biological,Biological,Biological,FALSE
+Archaeological,Archaeological,Archaeological,Archaeological,Archaeological,FALSE
+Archaeological Rock Shelter,Archaeological,Archaeological,Archaeological,Archaeological,FALSE
+Arroyo,Fluvial,Riverine,Riverine,Riverine,FALSE
+Artificial Lake,Lacustrine,Lacustrine,Lacustrine,Lacustrine,FALSE
+Ash Fall,Volcanic,Terrestrial,Terrestrial,Terrestrial,FALSE
+Backwater Lake,Fluvial Origin Lake,Natural Lake,Lacustrine,Lacustrine,FALSE
+Biological,Biological,Biological,Biological,Biological,FALSE
+Blanket Bog,Bog,Mire,Palustrine,Palustrine,TRUE
+Bog,Mire,Palustrine,Palustrine,Palustrine,TRUE
+Caldera Lake,Volcanic Origin Lake,Natural Lake,Lacustrine,Lacustrine,TRUE
+Canal,Artificial Waterway,Riverine,Riverine,Riverine,FALSE
+Cave,Terrestrial,Terrestrial,Terrestrial,Terrestrial,FALSE
+Cave Dung Deposit,Cave,Terrestrial,Terrestrial,Terrestrial,FALSE
+Cirque Lake,Glacial Origin Lake,Natural Lake,Lacustrine,Lacustrine,TRUE
+Coastal,Marine,Marine,Marine,Marine,FALSE
+Coastal Bar,Coastal,Marine,Marine,Marine,FALSE
+Coastal lagoon,Natural Lake,Lacustrine,Lacustrine,Lacustrine,FALSE
+Colluvium,Gravity,Terrestrial,Terrestrial,Terrestrial,FALSE
+Deep Sea Benthic,Marine,Marine,Marine,Marine,FALSE
+Deflation Basin Lake,Wind Origin Lake,Natural Lake,Lacustrine,Lacustrine,TRUE
+Delta,Fluvial,Riverine,Riverine,Riverine,FALSE
+Drained Lake,Natural Lake,Lacustrine,Lacustrine,Lacustrine,FALSE
+Drift Filled Valley Lake,Glacial Origin Lake,Natural Lake,Lacustrine,Lacustrine,FALSE
+Dune Dammed Lake,Wind Origin Lake,Natural Lake,Lacustrine,Lacustrine,FALSE
+Estuarine,Estuarine,Estuarine,Estuarine,Estuarine,FALSE
+Explosion Crater Lake,Volcanic Origin Lake,Natural Lake,Lacustrine,Lacustrine,TRUE
+Fen,Mire,Palustrine,Palustrine,Palustrine,TRUE
+Fjord,Marine,Marine,Marine,Marine,FALSE
+Floating Mire,Fen,Mire,Palustrine,Palustrine,TRUE
+Flood Scour Lake,Natural Lake,Lacustrine,Lacustrine,Lacustrine,TRUE
+Floodplain,Fluvial,Riverine,Riverine,Riverine,FALSE
+Floodplain Basin,Floodplain,Fluvial,Riverine,Riverine,FALSE
+Floodplain Mire,Fen,Mire,Palustrine,Palustrine,FALSE
+Fluvial,Riverine,Riverine,Riverine,Riverine,FALSE
+Fluvial Origin Lake,Natural Lake,Lacustrine,Lacustrine,Lacustrine,TRUE
+Fluvial terrace lake,Fluvial Origin Lake,Natural Lake,Lacustrine,Lacustrine,TRUE
+Glacial,Terrestrial,Terrestrial,Terrestrial,Terrestrial,FALSE
+Glacial Ice,Glacial,Terrestrial,Terrestrial,Terrestrial,FALSE
+Glacial Meltwater Channel Lake,Glacial Origin Lake,Natural Lake,Lacustrine,Lacustrine,TRUE
+Glacial Origin Lake,Natural Lake,Lacustrine,Lacustrine,Lacustrine,TRUE
+Glacial Outburst Flood Lake,Glacial Origin Lake,Natural Lake,Lacustrine,Lacustrine,TRUE
+Glacial Scour Lake,Glacial Origin Lake,Natural Lake,Lacustrine,Lacustrine,TRUE
+Glacier Ice,Other,Other,Other,Other,FALSE
+Glaciomarine,Marine,Marine,Marine,Marine,FALSE
+Ice Thrust Lake,Glacial Origin Lake,Natural Lake,Lacustrine,Lacustrine,TRUE
+Interdunal Lake,Wind Origin Lake,Natural Lake,Lacustrine,Lacustrine,TRUE
+Kettle Lake,Glacial Origin Lake,Natural Lake,Lacustrine,Lacustrine,FALSE
+Lacustrine,Lacustrine,Lacustrine,Lacustrine,Lacustrine,TRUE
+Lacustrine Beach,Lacustrine,Lacustrine,Lacustrine,Lacustrine,FALSE
+Lake Dammed by Alluvial Fans,Fluvial Origin Lake,Natural Lake,Lacustrine,Lacustrine,FALSE
+Lake Marginal Fen,Fen,Mire,Palustrine,Palustrine,TRUE
+Landslide Origin Lake,Natural Lake,Lacustrine,Lacustrine,Lacustrine,TRUE
+Lava Flow Dammed Lake,Volcanic Origin Lake,Natural Lake,Lacustrine,Lacustrine,TRUE
+Loess,Aeolian,Terrestrial,Terrestrial,Terrestrial,FALSE
+Mangrove Swamp,Estuarine,Estuarine,Estuarine,Estuarine,TRUE
+Marine,Marine,Marine,Marine,Marine,FALSE
+Marine Beach,Coastal,Marine,Marine,Marine,FALSE
+Marine Wave-cut Platform,Marine,Marine,Marine,Marine,FALSE
+Marsh,Palustrine,Palustrine,Palustrine,Palustrine,TRUE
+Meander Belt,Floodplain,Fluvial,Riverine,Riverine,FALSE
+Meteorite Impact Crater,Natural Lake,Lacustrine,Lacustrine,Lacustrine,TRUE
+Mire,Palustrine,Palustrine,Palustrine,Palustrine,TRUE
+Moist Soil,Soil,Terrestrial,Terrestrial,Terrestrial,FALSE
+Mor Humus,Soil,Terrestrial,Terrestrial,Terrestrial,FALSE
+Moraine Dammed Lake,Glacial Origin Lake,Natural Lake,Lacustrine,Lacustrine,TRUE
+Natural Lake,Lacustrine,Lacustrine,Lacustrine,Lacustrine,TRUE
+Natural Lake (Origin Unknown),Natural Lake,Lacustrine,Lacustrine,Lacustrine,TRUE
+Neotoma Midden,Animal Midden,Biological,Biological,Biological,FALSE
+Neotoma cinerea Midden,Neotoma Midden,Animal Midden,Biological,Biological,FALSE
+Non-system tank,Tank,Artificial Lake,Lacustrine,Lacustrine,FALSE
+Nonspecific Floodplain Lake,Fluvial Origin Lake,Natural Lake,Lacustrine,Lacustrine,FALSE
+Occupational Debris,Archaeological,Archaeological,Archaeological,Archaeological,FALSE
+Open-water Transition Mire,Fen,Mire,Palustrine,Palustrine,TRUE
+Other,Other,Other,Other,Other,FALSE
+Oxbow Lake,Fluvial Origin Lake,Natural Lake,Lacustrine,Lacustrine,FALSE
+Paleosol,Soil,Terrestrial,Terrestrial,Terrestrial,FALSE
+Palustrine,Palustrine,Palustrine,Palustrine,Palustrine,TRUE
+Periglacial Origin Lake,Natural Lake,Lacustrine,Lacustrine,Lacustrine,TRUE
+Permafrost,Terrestrial,Terrestrial,Terrestrial,Terrestrial,FALSE
+Petromus Midden,Animal Midden,Biological,Biological,Biological,FALSE
+Phyllotis Midden,Animal Midden,Biological,Biological,Biological,FALSE
+Playa,Natural Lake,Lacustrine,Lacustrine,Lacustrine,FALSE
+Pond,Natural Lake,Lacustrine,Lacustrine,Lacustrine,TRUE
+Poor Fen,Fen,Mire,Palustrine,Palustrine,FALSE
+Procavia Midden,Animal Midden,Biological,Biological,Biological,FALSE
+Proglacial Lake,Glacial Origin Lake,Natural Lake,Lacustrine,Lacustrine,FALSE
+Proglacial Lake,Glacial,Terrestrial,Terrestrial,Terrestrial,FALSE
+Quarry,Artificial Lake,Lacustrine,Lacustrine,Lacustrine,FALSE
+Raised Bog,Bog,Mire,Palustrine,Palustrine,TRUE
+Reservoir,Artificial Lake,Lacustrine,Lacustrine,Lacustrine,FALSE
+Rich Fen,Fen,Mire,Palustrine,Palustrine,TRUE
+River Channel,Fluvial,Riverine,Riverine,Riverine,FALSE
+River Terrace,Fluvial,Riverine,Riverine,Riverine,FALSE
+Riverine,Riverine,Riverine,Riverine,Riverine,FALSE
+Rock Shelter,Cave,Terrestrial,Terrestrial,Terrestrial,FALSE
+Salt Marsh,Estuarine,Estuarine,Estuarine,Estuarine,TRUE
+Small Hollow,Pond,Natural Lake,Lacustrine,Lacustrine,TRUE
+Small Hollow Fen,Fen,Mire,Palustrine,Palustrine,TRUE
+Soil,Terrestrial,Terrestrial,Terrestrial,Terrestrial,FALSE
+Soligenous Mire,Fen,Mire,Palustrine,Palustrine,TRUE
+Solution Origin Lake,Natural Lake,Lacustrine,Lacustrine,Lacustrine,TRUE
+Spring,Spring,Spring,Spring,Spring,TRUE
+Spring Mound,Spring,Spring,Spring,Spring,FALSE
+Spring Pond,Spring,Spring,Spring,Spring,FALSE
+Stream,Fluvial,Riverine,Riverine,Riverine,FALSE
+Stream-cut Exposure,Riverine,Riverine,Riverine,Riverine,FALSE
+Swamp,Palustrine,Palustrine,Palustrine,Palustrine,TRUE
+Tectonic Origin Lake,Natural Lake,Lacustrine,Lacustrine,Lacustrine,TRUE
+Terrestrial,Terrestrial,Terrestrial,Terrestrial,Terrestrial,FALSE
+Thaw Slump,Slump,Gravity,Terrestrial,Terrestrial,FALSE
+Thermokarst Lake,Periglacial Origin Lake,Natural Lake,Lacustrine,Lacustrine,TRUE
+Tidal Freshwater Forested Wetland,Palustrine,Palustrine,Palustrine,Palustrine,TRUE
+Tidal Oligohaline Marsh,Palustrine,Palustrine,Palustrine,Palustrine,TRUE
+Unknown,Unknown,Unknown,Unknown,Unknown,FALSE
+Valley Glacier Lake,Glacial Origin Lake,Natural Lake,Lacustrine,Lacustrine,TRUE
+Valley Mire,Fen,Mire,Palustrine,Palustrine,TRUE
+Volcanic,Terrestrial,Terrestrial,Terrestrial,Terrestrial,FALSE
+Volcanic Origin Lake,Natural Lake,Lacustrine,Lacustrine,Lacustrine,TRUE
+Wind Origin Lake,Natural Lake,Lacustrine,Lacustrine,Lacustrine,TRUE
+NA,NA,NA,NA,NA,FALSE
