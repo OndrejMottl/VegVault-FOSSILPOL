@@ -45,3 +45,5 @@ vignettes/*.pdf
 # Large files
 Data/Processed/Chronology/Models_full/26608_*
 Data/Processed/Chronology/Models_full/22759_*
+Data/Processed/Chronology/Predicted_ages/*
+Data/Processed/Data_with_chronologies/*
