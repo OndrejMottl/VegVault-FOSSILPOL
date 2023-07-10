@@ -1,0 +1,64 @@
+chroncontroltype,include,calibrate
+Ambrosia rise,FALSE,FALSE
+Annual laminations (varves),TRUE,FALSE
+Annual laminations (varves)/Sedimentation rate,TRUE,FALSE
+Argon-argon,FALSE,FALSE
+Biostratigraphic,FALSE,FALSE
+"Biostratigraphic, pollen",FALSE,FALSE
+"Biostratigraphic, pollen, Allerød/Younger Dryas",FALSE,FALSE
+"Biostratigraphic, pollen, Older Dryas/Allerød",FALSE,FALSE
+"Biostratigraphic, pollen, Oldest Dryas/Bølling",FALSE,FALSE
+"Biostratigraphic, pollen, Pleniglacial/Meiendorf",FALSE,FALSE
+"Biostratigraphic, pollen, Younger Dryas/Holocene",FALSE,FALSE
+"Biostratigraphic, pollen, regional",FALSE,FALSE
+Collection date,TRUE,FALSE
+Core bottom,FALSE,FALSE
+Core top,TRUE,FALSE
+"Core top, estimated",TRUE,FALSE
+Cultural,FALSE,FALSE
+Deglaciation,FALSE,FALSE
+European settlement horizon,FALSE,FALSE
+Event stratigraphic,FALSE,FALSE
+Extrapolated,FALSE,FALSE
+Geochronologic,FALSE,FALSE
+Geologic time scale,FALSE,FALSE
+Geologic time-scale boundary,FALSE,FALSE
+Guess,TRUE,FALSE
+Heeb & Welten (1972) pollen boundary,FALSE,FALSE
+Heinrich stadials,FALSE,FALSE
+Historical documentation,TRUE,FALSE
+Historical fire,TRUE,FALSE
+IDW-2d Picea decline,FALSE,FALSE
+IDW-2d Ulmus decline,FALSE,FALSE
+Infrared Stimulated Luminescence (IRSL),FALSE,FALSE
+Interpolated,FALSE,FALSE
+Introduced Pinus rise,FALSE,FALSE
+Isotopic excursion,FALSE,FALSE
+Lead-210,TRUE,FALSE
+Marine isotope stage boundary,FALSE,FALSE
+Marine isotope stage event,FALSE,FALSE
+Marine isotope stages,FALSE,FALSE
+Optically stimulated luminescence,TRUE,FALSE
+Other absolute dating methods,FALSE,FALSE
+Other dating methods,FALSE,FALSE
+Oxygen-18,TRUE,FALSE
+Palaeomagnetic,TRUE,FALSE
+Picea decline,FALSE,FALSE
+Pre-EuroAmerican settlement horizon,FALSE,FALSE
+Quaternary event classification,FALSE,FALSE
+Radiocarbon,TRUE,TRUE
+"Radiocarbon, average of two or more dates",TRUE,TRUE
+"Radiocarbon, calibrated",TRUE,FALSE
+"Radiocarbon, calibrated from calendar years",TRUE,FALSE
+"Radiocarbon, calibrated, Bayesian modelled",TRUE,FALSE
+"Radiocarbon, infinite",TRUE,FALSE
+"Radiocarbon, reservoir correction",TRUE,TRUE
+Salsola rise,FALSE,FALSE
+Section top,TRUE,FALSE
+Sediment stratigraphic,FALSE,FALSE
+Stratigraphic,FALSE,FALSE
+Tephra,TRUE,FALSE
+Tsuga decline,FALSE,FALSE
+Uranium-series,TRUE,FALSE
+W.O. van der Knaap pollen boundary,FALSE,FALSE
+Welten (1982) pollen boundary,FALSE,FALSE
