@@ -54,15 +54,58 @@ RUtilpol::check_if_loaded(
 
 
 #----------------------------------------------------------#
-# 3. Get all harmonisation tables -----
+# 3. Prepare harmonisation tables -----
 #----------------------------------------------------------#
 
+# get all harmonisation tables
 harmonisation_tables <-
   RFossilpol::harm_get_all_tables(
     data_source = data_with_chronologies,
     dir = data_storage_path # [config_criteria]
   )
 
+data_taxa_classification <-
+  RUtilpol::get_latest_file(
+    file_name = "data_taxa_classification",
+    dir = here::here(
+      "Data/Input/Harmonisation_tables/"
+    )
+  ) %>%
+  dplyr::distinct(taxon_name, taxon_harmonised)
+
+harmonisation_tables_filled <-
+  harmonisation_tables %>%
+  dplyr::mutate(
+    harm_table = purrr::map(
+      .x = harm_table,
+      .f = ~ data_taxa_classification %>%
+        dplyr::left_join(
+          .x, .,
+          by = "taxon_name"
+        ) %>%
+        dplyr::select(-level_1)
+    )
+  )
+
+purrr::map2(
+  .x = harmonisation_tables_filled$harmonisation_region,
+  .y = harmonisation_tables_filled$harm_table,
+  .f = ~ RUtilpol::save_latest_file(
+    object_to_save = .y,
+    file_name = .x,
+    dir = here::here(
+      "Data/Input/Harmonisation_tables/"
+    ),
+    prefered_format = "csv"
+  )
+)
+
+# get all harmonisation tables
+harmonisation_tables <-
+  RFossilpol::harm_get_all_tables(
+    data_source = data_with_chronologies,
+    dir = data_storage_path # [config_criteria]
+  )
 
 #----------------------------------------------------------#
 # 4. Harmonise data -----
@@ -73,11 +116,10 @@ data_harmonised <-
     data_source = data_with_chronologies,
     harmonisation_tables = harmonisation_tables,
     original_name = "taxon_name",
-    harm_level = "level_1", # [USER] Change the levels if needed
+    harm_level = "taxon_harmonised", # [USER] Change the levels if needed
     exclude_taxa = "delete",
     pollen_grain_test = TRUE # [USER] Turn FALSE to hide progress
   )
-
 
 #----------------------------------------------------------#
 # 5. Save the data  -----
