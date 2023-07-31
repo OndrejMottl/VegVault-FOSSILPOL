@@ -241,7 +241,7 @@ percentage_samples <- 75 # [USER]
 # Age limits
 #   Note that the actual ages have to be specified per region, defined during
 # the process of Workflow
-filter_by_age_limit <- TRUE # [USER]
+filter_by_age_limit <- FALSE # [USER]
 
 #----------------------------------------#
 
