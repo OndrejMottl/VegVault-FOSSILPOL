@@ -72,6 +72,24 @@ RFossilpol::proc_save_references(
   user_sel_variables = c(), # [USER] Here can user select variables,
   # which have to be present in the  final data assembly
   selected_outputs = c(
+    "graphical_summary"
+  ),
+  dir = data_storage_path, # [config_criteria]
+  grouping_variable = "region",
+  drop_na = TRUE,
+  line_width = 0.5,
+  legend_position = "bottom",
+  image_width = 50,
+  image_height = 12,
+  image_units = "cm"
+)
+
+RFossilpol::proc_save_references(
+  data_source = data_assembly,
+  project_database = project_dataset_database,
+  user_sel_variables = c(), # [USER] Here can user select variables,
+  # which have to be present in the  final data assembly
+  selected_outputs = c(
     "meta_table",
     "author_table",
     # this trick will include `affiliation_table` only if
@@ -80,7 +98,6 @@ RFossilpol::proc_save_references(
       NULL,
       "affiliation_table"
     ),
-    "graphical_summary",
     "reproducibility_bundle"
   ),
   dir = data_storage_path # [config_criteria]
