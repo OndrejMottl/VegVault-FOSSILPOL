@@ -48,7 +48,9 @@ Data/Processed/Chronology/Models_full/22759_*
 Data/Processed/Chronology/Predicted_ages/*
 Data/Processed/Data_with_chronologies/*
 Data/Processed/Data_harmonised/*
+Data/Processed/Data_filtered/*
 
 # Temp files
 Data/Temp/*
+
 
