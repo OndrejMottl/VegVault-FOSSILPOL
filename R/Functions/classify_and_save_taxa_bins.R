@@ -1,5 +1,6 @@
 classify_and_save_taxa_bins <- function(data_source, sel_var_name, dir) {
   purrr::walk2(
+    .progress = TRUE,
     .x = data_source$taxa_bin,
     .y = data_source$data,
     .f = ~ {
