@@ -64,48 +64,61 @@ harmonisation_tables <-
     dir = data_storage_path # [config_criteria]
   )
 
-data_taxa_classification <-
-  RUtilpol::get_latest_file(
-    file_name = "data_taxa_classification",
-    dir = here::here(
-      "Data/Input/Harmonisation_tables/"
-    )
-  ) %>%
-  dplyr::distinct(taxon_name, taxon_harmonised)
-
-harmonisation_tables_filled <-
+if (
   harmonisation_tables %>%
-  dplyr::mutate(
-    harm_table = purrr::map(
-      .x = harm_table,
-      .f = ~ data_taxa_classification %>%
-        dplyr::left_join(
-          .x, .,
-          by = "taxon_name"
-        ) %>%
-        dplyr::select(-level_1)
+    tidyr::unnest(harm_table) %>%
+    dplyr::select(
+      dplyr::any_of("level_1")
+    ) %>%
+    purrr::pluck(1) %>%
+    is.na() %>%
+    any()
+
+) {
+  data_taxa_classification <-
+    RUtilpol::get_latest_file(
+      file_name = "data_taxa_classification",
+      dir = here::here(
+        "Data/Input/Harmonisation_tables/"
+      )
+    ) %>%
+    dplyr::distinct(taxon_name, taxon_harmonised)
+
+  harmonisation_tables_filled <-
+    harmonisation_tables %>%
+    dplyr::mutate(
+      harm_table = purrr::map(
+        .x = harm_table,
+        .f = ~ data_taxa_classification %>%
+          dplyr::left_join(
+            .x, .,
+            by = "taxon_name"
+          ) %>%
+          dplyr::select(
+            !dplyr::any_of("level_1")
+          )
+      )
+    )
+
+  purrr::map2(
+    .x = harmonisation_tables_filled$harmonisation_region,
+    .y = harmonisation_tables_filled$harm_table,
+    .f = ~ RUtilpol::save_latest_file(
+      object_to_save = .y,
+      file_name = .x,
+      dir = here::here(
+        "Data/Input/Harmonisation_tables/"
+      ),
+      prefered_format = "csv"
     )
   )
-
-purrr::map2(
-  .x = harmonisation_tables_filled$harmonisation_region,
-  .y = harmonisation_tables_filled$harm_table,
-  .f = ~ RUtilpol::save_latest_file(
-    object_to_save = .y,
-    file_name = .x,
-    dir = here::here(
-      "Data/Input/Harmonisation_tables/"
-    ),
-    prefered_format = "csv"
-  )
-)
-
-# get all harmonisation tables
-harmonisation_tables <-
-  RFossilpol::harm_get_all_tables(
-    data_source = data_with_chronologies,
-    dir = data_storage_path # [config_criteria]
-  )
+  # get all harmonisation tables
+  harmonisation_tables <-
+    RFossilpol::harm_get_all_tables(
+      data_source = data_with_chronologies,
+      dir = data_storage_path # [config_criteria]
+    )
+}
 
 #----------------------------------------------------------#
 # 4. Harmonise data -----
