@@ -165,7 +165,7 @@ calc_AD_models_denovo <- FALSE # [USER]
 predict_ages_denovo <- FALSE # [USER]
 
 # Select the final variables
-select_final_variables <- TRUE # [USER]
+select_final_variables <- FALSE # [USER]
 
 
 #--------------------------------------------------#

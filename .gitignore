@@ -49,6 +49,7 @@ Data/Processed/Chronology/Predicted_ages/*
 Data/Processed/Data_with_chronologies/*
 Data/Processed/Data_harmonised/*
 Data/Processed/Data_filtered/*
+Outputs/Data/data_assembly_*.rds
 
 # Temp files
 Data/Temp/*
