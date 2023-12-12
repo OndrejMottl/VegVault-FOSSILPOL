@@ -52,6 +52,16 @@ RUtilpol::check_if_loaded(
   env = current_env
 )
 
+taxa_reference_table <-
+  RUtilpol::get_latest_file(
+    file_name = "taxa_reference_table",
+    dir = paste0(
+      data_storage_path, # [config_criteria]
+      "/Data/Input",
+      "/Harmonisation_tables"
+    )
+  )
+
 
 #----------------------------------------------------------#
 # 3. Prepare harmonisation tables -----
@@ -64,6 +74,25 @@ harmonisation_tables <-
     dir = data_storage_path # [config_criteria]
   )
 
+taxa_reference_table_clean <-
+  taxa_reference_table %>%
+  dplyr::distinct(
+    neotoma_names,
+    .keep_all = TRUE
+  ) %>%
+  dplyr::mutate(
+    neotoma_names_clean = janitor::make_clean_names(
+      neotoma_names,
+      case = "title",
+      use_make_names = FALSE,
+      allow_dupes = TRUE,
+      sep_out = " "
+    )
+  ) %>%
+  dplyr::select(
+    taxon_name, neotoma_names_clean
+  )
+
 if (
   harmonisation_tables %>%
     tidyr::unnest(harm_table) %>%
@@ -73,23 +102,13 @@ if (
     purrr::pluck(1) %>%
     is.na() %>%
     any()
-
 ) {
-  data_taxa_classification <-
-    RUtilpol::get_latest_file(
-      file_name = "data_taxa_classification",
-      dir = here::here(
-        "Data/Input/Harmonisation_tables/"
-      )
-    ) %>%
-    dplyr::distinct(taxon_name, taxon_harmonised)
-
   harmonisation_tables_filled <-
     harmonisation_tables %>%
     dplyr::mutate(
       harm_table = purrr::map(
         .x = harm_table,
-        .f = ~ data_taxa_classification %>%
+        .f = ~ taxa_reference_table_clean %>%
           dplyr::left_join(
             .x, .,
             by = "taxon_name"
@@ -112,6 +131,7 @@ if (
       prefered_format = "csv"
     )
   )
+
   # get all harmonisation tables
   harmonisation_tables <-
     RFossilpol::harm_get_all_tables(
@@ -129,7 +149,7 @@ data_harmonised <-
     data_source = data_with_chronologies,
     harmonisation_tables = harmonisation_tables,
     original_name = "taxon_name",
-    harm_level = "taxon_harmonised", # [USER] Change the levels if needed
+    harm_level = "neotoma_names_clean", # [USER] Change the levels if needed
     exclude_taxa = "delete",
     pollen_grain_test = TRUE # [USER] Turn FALSE to hide progress
   )

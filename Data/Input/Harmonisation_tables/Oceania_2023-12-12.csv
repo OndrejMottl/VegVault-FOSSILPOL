@@ -1,0 +1,470 @@
+taxon_name,neotoma_names,neotoma_names_clean
+acacia,Acacia,Acacia
+acmena,Acmena,Acmena
+acronychia,Acronychia,Acronychia
+acronychia_comp,Acronychia comp.,Acronychia Comp
+aegiceras,Aegiceras,Aegiceras
+agastachys,Agastachys,Agastachys
+agastachys_odorata,Agastachys odorata,Agastachys Odorata
+agathis,Agathis,Agathis
+agathis_australis,Agathis australis,Agathis Australis
+aglaia_type,Aglaia-type,Aglaia Type
+albizia,Albizia,Albizia
+aleurites,Aleurites,Aleurites
+allocasuarina,Allocasuarina,Allocasuarina
+alphitonia,Alphitonia,Alphitonia
+amperea,Amperea,Amperea
+amperea_xiphoclada,Amperea xiphoclada,Amperea Xiphoclada
+amyema,Amyema,Amyema
+anacardiaceae,Anacardiaceae,Anacardiaceae
+angophora_corymbia,Angophora/Corymbia,Angophora Corymbia
+angophora_type,Angophora-type,Angophora Type
+annonaceae,Annonaceae,Annonaceae
+anodopetalum,Anodopetalum,Anodopetalum
+anopterus,Anopterus,Anopterus
+anopterus_glandulosus,Anopterus glandulosus,Anopterus Glandulosus
+antidesma,Antidesma,Antidesma
+antirhea,Antirhea,Antirhea
+aphananthe,Aphananthe,Aphananthe
+araucaria,Araucaria,Araucaria
+araucariaceae,Araucariaceae,Araucariaceae
+ardisia,Ardisia,Ardisia
+arecaceae,Arecaceae,Arecaceae
+arecaceae_incertae_sedis,Arecaceae incertae sedis,Arecaceae Incertae Sedis
+arecaceae_undiff,Arecaceae undiff.,Arecaceae Undiff
+arenga,Arenga,Arenga
+aristotelia,Aristotelia,Aristotelia
+arytera,Arytera,Arytera
+ascarina,Ascarina,Ascarina
+ascarina_lucida,Ascarina lucida,Ascarina Lucida
+atherosperma,Atherosperma,Atherosperma
+atherosperma_moschatum,Atherosperma moschatum,Atherosperma Moschatum
+athrotaxis_diselma,Athrotaxis/Diselma,Athrotaxis Diselma
+austrobuxus,Austrobuxus,Austrobuxus
+avicennia,Avicennia,Avicennia
+baccaurea,Baccaurea,Baccaurea
+baeckea,Baeckea,Baeckea
+baeckea_tristania,Baeckea/Tristania,Baeckea Tristania
+balanops,Balanops,Balanops
+banksia,Banksia,Banksia
+banksia_marginata,Banksia marginata,Banksia Marginata
+barringtonia,Barringtonia,Barringtonia
+batis,Batis,Batis
+bauera,Bauera,Bauera
+bauera_rubioides,Bauera rubioides,Bauera Rubioides
+bauera_type,Bauera-type,Bauera Type
+bauhinia_type,Bauhinia-type,Bauhinia Type
+bellendena_montana,Bellendena montana,Bellendena Montana
+beyeria,Beyeria,Beyeria
+bignoniaceae_verbenaceae,Bignoniaceae/Verbenaceae,Bignoniaceae Verbenaceae
+billardiera,Billardiera,Billardiera
+bischofia,Bischofia,Bischofia
+bombax,Bombax,Bombax
+boronia,Boronia,Boronia
+bossiaea,Bossiaea,Bossiaea
+brachychiton,Brachychiton,Brachychiton
+bridelia,Bridelia,Bridelia
+bruguiera,Bruguiera,Bruguiera
+bruguiera_exaristata_type,Bruguiera exaristata-type,Bruguiera Exaristata-Type
+buchanania,Buchanania,Buchanania
+buchanania_type,Buchanania-type,Buchanania Type
+buddleja,Buddleja,Buddleja
+bursaria,Bursaria,Bursaria
+caesalpinioideae,Caesalpinioideae,Caesalpinioideae
+calamus,Calamus,Calamus
+callistemon,Callistemon,Callistemon
+callitris,Callitris,Callitris
+calocedrus,Calocedrus,Calocedrus
+calophyllum,Calophyllum,Calophyllum
+calycosia,Calycosia,Calycosia
+calytrix,Calytrix,Calytrix
+canthium,Canthium,Canthium
+capparaceae_fabaceae,Capparaceae/Fabaceae,Capparaceae Fabaceae
+capparis,Capparis,Capparis
+carpodetus_serratus,Carpodetus serratus,Carpodetus Serratus
+castanopsis,Castanopsis,Castanopsis
+castanopsis_lithocarpus,Castanopsis/Lithocarpus,Castanopsis Lithocarpus
+casuarina,Casuarina,Casuarina
+casuarina_type_b,Casuarina (type B),Casuarina Type b)
+casuarina_undiff,Casuarina undiff.,Casuarina Undiff
+casuarinaceae,Casuarinaceae,Casuarinaceae
+ceiba_pentandra_cochlospermum,Ceiba pentandra/Cochlospermum,Ceiba Pentandra/Cochlospermum
+celtis,Celtis,Celtis
+celtis_type,Celtis-type,Celtis Type
+cenarrhenes_nitida,Cenarrhenes nitida,Cenarrhenes Nitida
+cerberiopsis,Cerberiopsis,Cerberiopsis
+ceriops,Ceriops,Ceriops
+cf_amperea,cf. Amperea,Cf Amperea
+cf_canthium,cf. Canthium,Cf Canthium
+cf_celtis,cf. Celtis,Cf Celtis
+cf_fuchsia,cf. Fuchsia,Cf Fuchsia
+cf_homalium,cf. Homalium,Cf Homalium
+cf_melochia,cf. Melochia,Cf Melochia
+cf_pandanus,cf. Pandanus,Cf Pandanus
+cf_pemphis,cf. Pemphis,Cf Pemphis
+cf_psychotria,cf. Psychotria,Cf Psychotria
+cf_psydrax,cf. Psydrax,Cf Psydrax
+cf_quintinia,cf. Quintinia,Cf Quintinia
+cf_rubiaceae,cf. Rubiaceae,Cf Rubiaceae
+cf_rubus,cf. Rubus,Cf Rubus
+cf_streblus,cf. Streblus,Cf Streblus
+cissus,Cissus,Cissus
+claoxylon,Claoxylon,Claoxylon
+cleidion,Cleidion,Cleidion
+cleistocalyx,Cleistocalyx,Cleistocalyx
+cocos,Cocos,Cocos
+codia,Codia,Codia
+combretaceae,Combretaceae,Combretaceae
+combretaceae_melastomataceae,Combretaceae/Melastomataceae,Combretaceae Melastomataceae
+commersonia,Commersonia,Commersonia
+coniferae,Coniferae,Coniferae
+coprosma,Coprosma,Coprosma
+coprosma_pomax,Coprosma/Pomax,Coprosma Pomax
+cordyline,Cordyline,Cordyline
+coriaria,Coriaria,Coriaria
+correa,Correa,Correa
+corymbia,Corymbia,Corymbia
+corymbia_terminalis,Corymbia terminalis,Corymbia Terminalis
+croton,Croton,Croton
+cunoniaceae,Cunoniaceae,Cunoniaceae
+cunoniaceae_dicolpate,Cunoniaceae (dicolpate),Cunoniaceae Dicolpate)
+cunoniaceae_elaeocarpaceae,Cunoniaceae/Elaeocarpaceae,Cunoniaceae Elaeocarpaceae
+cunoniaceae_tricolpate,Cunoniaceae (tricolpate),Cunoniaceae Tricolpate)
+cupaniopsis,Cupaniopsis,Cupaniopsis
+cupressaceae,Cupressaceae,Cupressaceae
+cyclophyllum,Cyclophyllum,Cyclophyllum
+cyclophyllum_barbatum,Cyclophyllum barbatum,Cyclophyllum Barbatum
+cynometra_type,Cynometra-type,Cynometra Type
+dacrycarpus,Dacrycarpus,Dacrycarpus
+dacrycarpus_dacrydioides,Dacrycarpus dacrydioides,Dacrycarpus Dacrydioides
+dacrycarpus_trisaccate,Dacrycarpus (trisaccate),Dacrycarpus Trisaccate)
+dacrydium,Dacrydium,Dacrydium
+dacrydium_cupressinum,Dacrydium cupressinum,Dacrydium Cupressinum
+daviesia,Daviesia,Daviesia
+daviesia_type,Daviesia-type,Daviesia Type
+decaspermum,Decaspermum,Decaspermum
+didymotheca,Didymotheca,Didymotheca
+dillenia,Dillenia,Dillenia
+dilleniaceae,Dilleniaceae,Dilleniaceae
+discaria,Discaria,Discaria
+discaria_toumatou,Discaria toumatou,Discaria Toumatou
+dodonaea,Dodonaea,Dodonaea
+dodonaea_type,Dodonaea-type,Dodonaea Type
+dodonaea_viscosa,Dodonaea viscosa,Dodonaea Viscosa
+dodonaea_viscosa_type,Dodonaea viscosa-type,Dodonaea Viscosa-Type
+dolicholobium,Dolicholobium,Dolicholobium
+dracophyllum,Dracophyllum,Dracophyllum
+drapetes,Drapetes,Drapetes
+drimys,Drimys,Drimys
+dysoxylum,Dysoxylum,Dysoxylum
+elaeocarpaceae,Elaeocarpaceae,Elaeocarpaceae
+elaeocarpus,Elaeocarpus,Elaeocarpus
+elattostachys,Elattostachys,Elattostachys
+embelia,Embelia,Embelia
+endospermum,Endospermum,Endospermum
+engelhardia,Engelhardia,Engelhardia
+epacrideae,Epacrideae,Epacrideae
+epacrideae_undiff,Epacrideae undiff.,Epacrideae Undiff
+epacris,Epacris,Epacris
+epacris_serpyllifolia,Epacris serpyllifolia,Epacris Serpyllifolia
+eremophila,Eremophila,Eremophila
+ericaceae,Ericaceae,Ericaceae
+ericaceae_type_2,Ericaceae (type 2),Ericaceae Type 2)
+ericaceae_undiff,Ericaceae undiff.,Ericaceae Undiff
+eriostemon,Eriostemon,Eriostemon
+erythrina_variegata,Erythrina variegata,Erythrina Variegata
+eucalyptus,Eucalyptus,Eucalyptus
+eucryphia,Eucryphia,Eucryphia
+eugenia_simmondsiae,Eugenia simmondsiae,Eugenia Simmondsiae
+euodia,Euodia,Euodia
+evodiella,Evodiella,Evodiella
+excoecaria,Excoecaria,Excoecaria
+excoecaria_type,Excoecaria-type,Excoecaria Type
+exocarpos,Exocarpos,Exocarpos
+exocarpos_type,Exocarpos-type,Exocarpos Type
+fagraea,Fagraea,Fagraea
+ficus,Ficus,Ficus
+flindersia,Flindersia,Flindersia
+freycinetia,Freycinetia,Freycinetia
+freycinetia_sp,Freycinetia sp.,Freycinetia Sp
+fuscospora,Fuscospora,Fuscospora
+garcinia,Garcinia,Garcinia
+gardenia,Gardenia,Gardenia
+gaultheria_type,Gaultheria-type,Gaultheria Type
+geniostoma,Geniostoma,Geniostoma
+glochidion,Glochidion,Glochidion
+grevillea,Grevillea,Grevillea
+grevillea_type,Grevillea-type,Grevillea Type
+griselinia,Griselinia,Griselinia
+guioa,Guioa,Guioa
+gymnostoma,Gymnostoma,Gymnostoma
+gynatrix,Gynatrix,Gynatrix
+gyrostemon,Gyrostemon,Gyrostemon
+gyrostemonaceae,Gyrostemonaceae,Gyrostemonaceae
+hakea,Hakea,Hakea
+halocarpus,Halocarpus,Halocarpus
+hardenbergia,Hardenbergia,Hardenbergia
+helicteres,Helicteres,Helicteres
+heritiera,Heritiera,Heritiera
+heritiera_type,Heritiera-type,Heritiera Type
+hernandia,Hernandia,Hernandia
+hernandiaceae,Hernandiaceae,Hernandiaceae
+hibbertia,Hibbertia,Hibbertia
+hoheria_angustifolia,Hoheria angustifolia,Hoheria Angustifolia
+hoheria_lyallii_type,Hoheria lyallii-type,Hoheria Lyallii-Type
+homalanthus,Homalanthus,Homalanthus
+homalanthus_cf_h_stokesii,Homalanthus cf. H. stokesii,Homalanthus Cf h Stokesii
+homalium,Homalium,Homalium
+hovea,Hovea,Hovea
+hovea_bossiaea,Hovea/Bossiaea,Hovea Bossiaea
+ilex,Ilex,Ilex
+ixora,Ixora,Ixora
+juglandaceae,Juglandaceae,Juglandaceae
+kleinhovia_hospita,Kleinhovia hospita,Kleinhovia Hospita
+knightia,Knightia,Knightia
+kunzea,Kunzea,Kunzea
+kunzea_leptospermum,Kunzea/Leptospermum,Kunzea Leptospermum
+lagarostrobos,Lagarostrobos,Lagarostrobos
+lagarostrobos_franklinii,Lagarostrobos franklinii,Lagarostrobos Franklinii
+lauraceae,Lauraceae,Lauraceae
+laurelia,Laurelia,Laurelia
+leea,Leea,Leea
+lepidothamnus,Lepidothamnus,Lepidothamnus
+leptospermum,Leptospermum,Leptospermum
+leptospermum_baeckea,Leptospermum/Baeckea,Leptospermum Baeckea
+leptospermum_type,Leptospermum-type,Leptospermum Type
+leucopogon,Leucopogon,Leucopogon
+leucopogon_suaveolens,Leucopogon suaveolens,Leucopogon Suaveolens
+libocedrus,Libocedrus,Libocedrus
+litsea,Litsea,Litsea
+lomatia,Lomatia,Lomatia
+loranthaceae,Loranthaceae,Loranthaceae
+lumnitzera,Lumnitzera,Lumnitzera
+lumnitzera_type,Lumnitzera-type,Lumnitzera Type
+macaranga,Macaranga,Macaranga
+macaranga_mallotus,Macaranga/Mallotus,Macaranga Mallotus
+maesa,Maesa,Maesa
+mallotus,Mallotus,Mallotus
+mallotus_type,Mallotus-type,Mallotus Type
+medinilla_comp,Medinilla comp.,Medinilla Comp
+melaleuca,Melaleuca,Melaleuca
+melanolepis,Melanolepis,Melanolepis
+melastoma,Melastoma,Melastoma
+melastomataceae,Melastomataceae,Melastomataceae
+melia,Melia,Melia
+meliaceae,Meliaceae,Meliaceae
+meliaceae_type,Meliaceae-type,Meliaceae Type
+melicope,Melicope,Melicope
+meliosma,Meliosma,Meliosma
+melochia,Melochia,Melochia
+metrosideros,Metrosideros,Metrosideros
+metroxylon_sagu,Metroxylon sagu,Metroxylon Sagu
+metroxylon_vitiense,Metroxylon vitiense,Metroxylon Vitiense
+micrantheum,Micrantheum,Micrantheum
+microcachrys,Microcachrys,Microcachrys
+microcachrys_tetragona,Microcachrys tetragona,Microcachrys Tetragona
+microstrobos,Microstrobos,Microstrobos
+mimosoid_clade,mimosoid clade,Mimosoid Clade
+mimusops_type,Mimusops-type,Mimusops Type
+monotoca,Monotoca,Monotoca
+moraceae,Moraceae,Moraceae
+morinda,Morinda,Morinda
+morinda_type,Morinda-type,Morinda Type
+muehlenbeckia,Muehlenbeckia,Muehlenbeckia
+mussaenda,Mussaenda,Mussaenda
+myoporaceae_sensu_stricto,Myoporaceae sensu stricto,Myoporaceae Sensu Stricto
+myoporum,Myoporum,Myoporum
+myoporum_rapense,Myoporum rapense,Myoporum Rapense
+myristica,Myristica,Myristica
+myrsine,Myrsine,Myrsine
+myrtaceae,Myrtaceae,Myrtaceae
+myrtaceae_cf_baeckea,Myrtaceae cf. Baeckea,Myrtaceae Cf Baeckea
+myrtaceae_type_1,Myrtaceae (type 1),Myrtaceae Type 1)
+myrtaceae_type_12,Myrtaceae (type 12),Myrtaceae Type 12)
+myrtaceae_type_14,Myrtaceae (type 14),Myrtaceae Type 14)
+myrtaceae_type_17,Myrtaceae (type 17),Myrtaceae Type 17)
+myrtaceae_type_2,Myrtaceae (type 2),Myrtaceae Type 2)
+myrtaceae_type_3,Myrtaceae (type 3),Myrtaceae Type 3)
+myrtaceae_type_4,Myrtaceae (type 4),Myrtaceae Type 4)
+myrtaceae_type_b,Myrtaceae (type B),Myrtaceae Type b)
+myrtaceae_undiff,Myrtaceae undiff.,Myrtaceae Undiff
+nauclea,Nauclea,Nauclea
+neomyrtus,Neomyrtus,Neomyrtus
+neomyrtus_type,Neomyrtus-type,Neomyrtus Type
+neonauclea,Neonauclea,Neonauclea
+neonauclea_comp,Neonauclea comp.,Neonauclea Comp
+nestegis,Nestegis,Nestegis
+neuburgia,Neuburgia,Neuburgia
+nothofagus,Nothofagus,Nothofagus
+nothofagus_cunninghamii,Nothofagus cunninghamii,Nothofagus Cunninghamii
+nothofagus_gunnii,Nothofagus gunnii,Nothofagus Gunnii
+nothofagus_menziesii,Nothofagus menziesii,Nothofagus Menziesii
+nothofagus_subgen_brassospora,Nothofagus subgen. Brassospora,Nothofagus Subgen Brassospora
+nothofagus_subgen_lophozonia,Nothofagus subgen. Lophozonia,Nothofagus Subgen Lophozonia
+nothofagus_undiff,Nothofagus undiff.,Nothofagus Undiff
+octomeles_sumatrana,Octomeles sumatrana,Octomeles Sumatrana
+olea,Olea,Olea
+olea_paniculata,Olea paniculata,Olea Paniculata
+olea_type,Olea-type,Olea Type
+olearia,Olearia,Olearia
+olearia_colensoi,Olearia colensoi,Olearia Colensoi
+olearia_type,Olearia-type,Olearia Type
+ophiorrhiza,Ophiorrhiza,Ophiorrhiza
+opilia,Opilia,Opilia
+opuntia,Opuntia,Opuntia
+orites,Orites,Orites
+oxylobium,Oxylobium,Oxylobium
+palaquium,Palaquium,Palaquium
+pandanus,Pandanus,Pandanus
+pandanus_tectorius,Pandanus tectorius,Pandanus Tectorius
+pandanus_type_a,Pandanus (type A),Pandanus Type a)
+pandanus_type_c,Pandanus (type C),Pandanus Type c)
+papuacedrus,Papuacedrus,Papuacedrus
+parahebe,Parahebe,Parahebe
+parasponia,Parasponia,Parasponia
+parinari,Parinari,Parinari
+parinari_comp,Parinari comp.,Parinari Comp
+pemphis,Pemphis,Pemphis
+pemphis_comp,Pemphis comp.,Pemphis Comp
+peraxilla,Peraxilla,Peraxilla
+persoonia,Persoonia,Persoonia
+phaleria,Phaleria,Phaleria
+phebalium,Phebalium,Phebalium
+phebalium_squameum,Phebalium squameum,Phebalium Squameum
+pherosphaera_hookeriana,Pherosphaera hookeriana,Pherosphaera Hookeriana
+phyllocladus,Phyllocladus,Phyllocladus
+phyllocladus_aspleniifolius,Phyllocladus aspleniifolius,Phyllocladus Aspleniifolius
+pimelea,Pimelea,Pimelea
+pinus,Pinus,Pinus
+pinus_radiata,Pinus radiata,Pinus Radiata
+piper,Piper,Piper
+piperaceae,Piperaceae,Piperaceae
+pipturus,Pipturus,Pipturus
+pisonia,Pisonia,Pisonia
+pisonia_comp,Pisonia comp.,Pisonia Comp
+pittosporum,Pittosporum,Pittosporum
+planchonella,Planchonella,Planchonella
+planchonia,Planchonia,Planchonia
+plerandra,Plerandra,Plerandra
+plicosepalus,Plicosepalus,Plicosepalus
+podocarpaceae,Podocarpaceae,Podocarpaceae
+podocarpaceae_undiff,Podocarpaceae undiff.,Podocarpaceae Undiff
+podocarpus,Podocarpus,Podocarpus
+podocarpus_lawrencei,Podocarpus lawrencei,Podocarpus Lawrencei
+podocarpus_totara,Podocarpus totara,Podocarpus Totara
+polyscias,Polyscias,Polyscias
+pomaderris,Pomaderris,Pomaderris
+pomaderris_apetala,Pomaderris apetala,Pomaderris Apetala
+pomaderris_apetala_type,Pomaderris apetala-type,Pomaderris Apetala-Type
+pomaderris_elliptica,Pomaderris elliptica,Pomaderris Elliptica
+poranthera,Poranthera,Poranthera
+pritchardia,Pritchardia,Pritchardia
+prostanthera,Prostanthera,Prostanthera
+proteaceae,Proteaceae,Proteaceae
+prumnopitys_ferruginea,Prumnopitys ferruginea,Prumnopitys Ferruginea
+prumnopitys_taxifolia,Prumnopitys taxifolia,Prumnopitys Taxifolia
+prunus,Prunus,Prunus
+pseudopanax,Pseudopanax,Pseudopanax
+pseudopanax_anomalus_type,Pseudopanax anomalus-type,Pseudopanax Anomalus-Type
+pseudopanax_arboreus,Pseudopanax arboreus,Pseudopanax Arboreus
+pseudopanax_colensoi_type,Pseudopanax colensoi-type,Pseudopanax Colensoi-Type
+pseudopanax_type,Pseudopanax-type,Pseudopanax Type
+pseudowintera,Pseudowintera,Pseudowintera
+psychotria,Psychotria,Psychotria
+quintinia,Quintinia,Quintinia
+quintinia_comp,Quintinia comp.,Quintinia Comp
+randia,Randia,Randia
+rapanea,Rapanea,Rapanea
+rapanea_3_minus_4_colpate,Rapanea (3-4 colpate),Rapanea 3-4 Colpate)
+rapanea_cf_r_achradifolia,Rapanea cf. R. achradifolia,Rapanea Cf r Achradifolia
+rhamnaceae,Rhamnaceae,Rhamnaceae
+rhamnaceae_undiff,Rhamnaceae undiff.,Rhamnaceae Undiff
+rhizophora,Rhizophora,Rhizophora
+rhizophora_apiculata,Rhizophora apiculata,Rhizophora Apiculata
+rhizophora_mucronata_type,Rhizophora mucronata-type,Rhizophora Mucronata-Type
+rhizophora_stylosa,Rhizophora stylosa,Rhizophora Stylosa
+rhizophoraceae,Rhizophoraceae,Rhizophoraceae
+rhopalostylis_sapida,Rhopalostylis sapida,Rhopalostylis Sapida
+rhus,Rhus,Rhus
+richea,Richea,Richea
+richea_procera_type,Richea procera-type,Richea Procera-Type
+richea_type,Richea-type,Richea Type
+rosales_cf_moraceae_urticaceae,Rosales cf. Moraceae/Urticaceae,Rosales Cf Moraceae/Urticaceae
+rubiaceae,Rubiaceae,Rubiaceae
+rubiaceae_type,Rubiaceae-type,Rubiaceae Type
+rubiaceae_undiff,Rubiaceae undiff.,Rubiaceae Undiff
+rubus,Rubus,Rubus
+rubus_comp,Rubus comp.,Rubus Comp
+rubus_squarrosus_type,Rubus squarrosus-type,Rubus Squarrosus-Type
+rutaceae,Rutaceae,Rutaceae
+rutaceae_undiff,Rutaceae undiff.,Rutaceae Undiff
+salicaceae,Salicaceae,Salicaceae
+salix,Salix,Salix
+santalaceae,Santalaceae,Santalaceae
+sapindaceae,Sapindaceae,Sapindaceae
+sapindaceae_scrophulariaceae,Sapindaceae/Scrophulariaceae,Sapindaceae Scrophulariaceae
+sapindus,Sapindus,Sapindus
+sapotaceae,Sapotaceae,Sapotaceae
+sapotaceae_type,Sapotaceae-type,Sapotaceae Type
+saurauia,Saurauia,Saurauia
+scaevola,Scaevola,Scaevola
+scaevola_comp,Scaevola comp.,Scaevola Comp
+scaevola_taccada,Scaevola taccada,Scaevola Taccada
+schefflera,Schefflera,Schefflera
+schefflera_comp,Schefflera comp.,Schefflera Comp
+scyphiphora,Scyphiphora,Scyphiphora
+scyphiphora_type,Scyphiphora-type,Scyphiphora Type
+senna,Senna,Senna
+sesuvium,Sesuvium,Sesuvium
+sloanea,Sloanea,Sloanea
+sonneratia,Sonneratia,Sonneratia
+sonneratia_alba_sonneratia_caseolaris,Sonneratia alba/Sonneratia caseolaris,Sonneratia Alba/Sonneratia Caseolaris
+sonneratia_gulngai,Sonneratia gulngai,Sonneratia Gulngai
+sophora,Sophora,Sophora
+sophora_tomentosa,Sophora tomentosa,Sophora Tomentosa
+soulamea,Soulamea,Soulamea
+sphenostemon,Sphenostemon,Sphenostemon
+spiraeopsis,Spiraeopsis,Spiraeopsis
+sprengelia,Sprengelia,Sprengelia
+sprengelia_incarnata,Sprengelia incarnata,Sprengelia Incarnata
+spyridium,Spyridium,Spyridium
+sterculia_edelfeltii,Sterculia edelfeltii,Sterculia Edelfeltii
+sterculioideae_type,Sterculioideae-type,Sterculioideae Type
+streblus,Streblus,Streblus
+styphelia,Styphelia,Styphelia
+symplocos,Symplocos,Symplocos
+symplocos_type,Symplocos-type,Symplocos Type
+syzygium,Syzygium,Syzygium
+tapeinosperma,Tapeinosperma,Tapeinosperma
+tasmannia,Tasmannia,Tasmannia
+tasmannia_lanceolata,Tasmannia lanceolata,Tasmannia Lanceolata
+telopea_truncata,Telopea truncata,Telopea Truncata
+terminalia,Terminalia,Terminalia
+terminalia_type,Terminalia-type,Terminalia Type
+tetracarpaea_tasmannica,Tetracarpaea tasmannica,Tetracarpaea Tasmannica
+tetratheca,Tetratheca,Tetratheca
+tetratheca_pilosa,Tetratheca pilosa,Tetratheca Pilosa
+thespesia_type,Thespesia-type,Thespesia Type
+tilioideae_type,Tilioideae-type,Tilioideae Type
+timonius,Timonius,Timonius
+timonius_type,Timonius-type,Timonius Type
+trema,Trema,Trema
+trema_type,Trema-type,Trema Type
+triumfetta,Triumfetta,Triumfetta
+trophis_type,Trophis-type,Trophis Type
+tsuga_canadensis,Tsuga canadensis,Tsuga Canadensis
+tupeia_antarctica,Tupeia antarctica,Tupeia Antarctica
+turrillia,Turrillia,Turrillia
+ulex_europaeus,Ulex europaeus,Ulex Europaeus
+ulmaceae,Ulmaceae,Ulmaceae
+uncaria,Uncaria,Uncaria
+urticaceae_moraceae,Urticaceae/Moraceae,Urticaceae Moraceae
+vitaceae,Vitaceae,Vitaceae
+vitex_lucens,Vitex lucens,Vitex Lucens
+weinmannia,Weinmannia,Weinmannia
+winteraceae,Winteraceae,Winteraceae
+xanthomyrtus,Xanthomyrtus,Xanthomyrtus
+xanthostemon,Xanthostemon,Xanthostemon
+xylocarpus,Xylocarpus,Xylocarpus
+zanthoxylum,Zanthoxylum,Zanthoxylum
+zieria,Zieria,Zieria
