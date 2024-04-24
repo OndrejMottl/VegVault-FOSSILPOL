@@ -1,4 +1,4 @@
-# BIODYNAMICS: Get and proccess fossil pollen data
+# VegVault: Get and proccess fossil pollen data
 
 This is part of the [BIODYNAMICS project](https://ondrejmottl.github.io/projects/BIODYNAMICS/).
 
