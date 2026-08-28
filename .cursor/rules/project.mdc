@@ -1,0 +1,8 @@
+---
+description: VegVault-FOSSILPOL project-wide assistant routing
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+Use `AGENTS.md` as the entry point and apply `.ai/repository-contract.md` to all work.

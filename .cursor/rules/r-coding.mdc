@@ -1,0 +1,8 @@
+---
+description: VegVault-FOSSILPOL R coding routing
+globs:
+  - "**/*.R"
+alwaysApply: false
+---
+
+Read `AGENTS.md`, `.ai/repository-contract.md`, and, when available, `../VegVault/.ai/r-coding.md` plus `../VegVault/.ai/debugging.md`.
