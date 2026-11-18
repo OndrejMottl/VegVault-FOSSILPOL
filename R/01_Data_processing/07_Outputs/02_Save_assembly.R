@@ -80,8 +80,7 @@ data_filtered %>%
       data_storage_path, # [config_criteria]
       "/Outputs/Data/"
     ),
-    prefered_format = "qs",
-    preset = "archive",
+    prefered_format = "qs"
   )
 
 data_age_uncertainty <-
@@ -98,8 +97,7 @@ RUtilpol::save_latest_file(
     data_storage_path, # [config_criteria]
     "/Outputs/Data/"
   ),
-  prefered_format = "qs",
-  preset = "archive",
+  prefered_format = "qs"
 )
 
 RUtilpol::save_latest_file(
@@ -110,6 +108,5 @@ RUtilpol::save_latest_file(
     data_storage_path, # [config_criteria]
     "/Outputs/Data/"
   ),
-  prefered_format = "qs",
-  preset = "archive",
+  prefered_format = "qs"
 )
