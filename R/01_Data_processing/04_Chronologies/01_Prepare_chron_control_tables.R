@@ -87,7 +87,21 @@ chron_control_tables_subset <-
     rerun_ad = calc_AD_models_denovo, # [config_criteria]
     # [USER] here can user specify which dataset_ids should be
     #   re-run additionally
-    sites_to_rerun = c()
+    # Records with a stored age-depth model whose chronology control table
+    #   changed in the Neotoma download of 2026-11-19 (points added, removed
+    #   or with changed ages); all other stored models are reused
+    sites_to_rerun = c(
+      "14921",
+      "48966",
+      "52253",
+      "52406",
+      "53745",
+      "55220",
+      "55281",
+      "55713",
+      "55717",
+      "55721"
+    )
   )
 
 
