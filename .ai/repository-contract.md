@@ -8,7 +8,8 @@ The downstream contract includes `Outputs/Data/data_assembly_light_*.qs`, partit
 
 ## Safety
 
-- Do not expose or redistribute private records, author details, local personal-database storage, or inputs whose licences do not permit redistribution.
+- Author names, contact details and ORCIDs come from the public Neotoma API. They may be tracked under `Data/Input/Author_info/` and published in the author table under `Outputs/Meta_and_references/`, so that data contributors can be credited and contacted. Do not add contact details from any other source.
+- Do not expose or redistribute private records, local personal-database storage, or inputs whose licences do not permit redistribution.
 - Do not edit chronology selections, depositional-environment filters, harmonisation tables, regional age limits, or manual classification decisions as incidental cleanup.
 - Full Neotoma downloads, age-depth model fitting, chronology prediction, harmonisation, and assembly are expensive and require explicit user authorization.
 - Never enable broad overwrite/rerun behavior without identifying the exact datasets, model products, and output paths affected.
