@@ -6,6 +6,8 @@ This repository owns Neotoma acquisition, chronology-control preparation, Bchron
 
 The downstream contract includes `Outputs/Data/data_assembly_light_*.qs`, partitioned `Outputs/Data/data_age_uncertainty_*.qs`, and the metadata/reference products under `Outputs/Meta_and_references/`. Treat filenames, nested structures, identifiers, ages, uncertainty iterations, taxonomy, citations, and units as interfaces consumed by the main VegVault repository.
 
+The age-uncertainty parts are lettered `A`, `B`, `C`, ... in the row order of the filtered data. A new part starts when the estimated `qs2` size of the current part would exceed the limit set at the top of `R/01_Data_processing/07_Outputs/02_Save_assembly.R`, which keeps every file below GitHub's per-file limit. The number of parts therefore depends on the data, and the script stops unless the parts read back from `Outputs/Data/` add up exactly to the whole.
+
 ## Safety
 
 - Do not expose or redistribute private records, author details, local personal-database storage, or inputs whose licences do not permit redistribution.
