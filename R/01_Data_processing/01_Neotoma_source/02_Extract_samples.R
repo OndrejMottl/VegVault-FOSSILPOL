@@ -79,6 +79,33 @@ neotoma_meta_samples <-
 # 3. Authors of datasets and project database -----
 #----------------------------------------------------------#
 
+# The Neotoma API now rejects the "<contactid>_neotoma" identifiers that
+#   RFossilpol::proc_neo_get_authors() requests, so the missing author files
+#   are saved here first with the numeric contact ID. RFossilpol then finds
+#   a file for every author and only compiles them.
+path_author_files <-
+  stringr::str_c(
+    data_storage_path, # [config_criteria]
+    "/Data/Input/Author_info/individual"
+  )
+
+base::dir.create(
+  path = path_author_files,
+  showWarnings = FALSE,
+  recursive = TRUE
+)
+
+vec_neotoma_author_ids <-
+  build_neotoma_author_ids(
+    neotoma_download = neotoma_download,
+    dataset_ids = neotoma_meta_samples$dataset_id
+  )
+
+save_neotoma_authors(
+  vec_author_ids = vec_neotoma_author_ids,
+  dir = path_author_files
+)
+
 # Extract information about dataset authors
 neotoma_sites_authors <-
   RFossilpol::proc_neo_get_authors(
