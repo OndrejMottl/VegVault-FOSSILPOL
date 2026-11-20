@@ -138,12 +138,21 @@ optional_info_to_assign <-
     ## Each layer has to be separated by coma `,`
   )
 
+# RUtilpol::geo_assign_value() places records with sf. With spherical
+#   geometry (s2), the calibration-curve and post-bomb shapefiles have
+#   crossing edges and the join fails. Planar geometry gives the same
+#   assignments as the 2023 run, which used sp::over().
+is_s2_used <-
+  sf::sf_use_s2(FALSE)
+
 data_geo <-
   RFossilpol::geo_assign_by_list(
     data_source = data_sorted,
     dir = current_dir, # [config criteria]
     optional_info_to_assign = optional_info_to_assign
   )
+
+sf::sf_use_s2(is_s2_used)
 
 #----------------------------------------------------------#
 # 7. Define regional age limits -----

@@ -19,7 +19,7 @@
 
 # Version of the Workflow
 workflow_version <-
-  "1.0.0"
+  "2.0.0"
 
 # Set the current environment
 current_env <- environment()
@@ -153,7 +153,7 @@ lat_max <- 90 # [USER]
 alt_min <- NA # [USER]
 alt_max <- NA # [USER]
 
-neotoma_new_download <- TRUE
+neotoma_new_download <- FALSE
 
 # Define access to datasets from other sources than Neotoma
 use_other_datasource <- FALSE # [USER]
@@ -208,7 +208,8 @@ max_age_error <- 3000 # [USER]
 guess_depth <- 10 # [USER]
 
 # Bchron settings
-number_of_cores <- parallel::detectCores() - 1
+# At most 16 cores, so that other work can run on the machine
+number_of_cores <- min(16, parallel::detectCores() - 1)
 batch_size <- number_of_cores * 3
 set_seed <- 1234
 
