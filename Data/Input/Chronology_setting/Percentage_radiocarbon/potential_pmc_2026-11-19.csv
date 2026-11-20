@@ -1,0 +1,9 @@
+dataset_id,chroncontrolid,depth,thickness,chroncontrolage,agelimitolder,agelimityounger,chroncontroltype,fulfil_criteria,include
+48767,106502,15.5,1,105.24,105.63,104.85,Radiocarbon,TRUE,FALSE
+54004,117485,11.9,4.6,99.9,100.3,99.5,Radiocarbon,TRUE,FALSE
+54005,117485,11.9,4.6,99.9,100.3,99.5,Radiocarbon,TRUE,FALSE
+61910,134077,5,NA,101.38,101.76,101,Radiocarbon,TRUE,TRUE
+65692,153110,7.75,NA,104.62,104.95,104.29,Radiocarbon,TRUE,TRUE
+65693,153110,7.75,NA,104.62,104.95,104.29,Radiocarbon,TRUE,TRUE
+75415,466222,1,NA,103.9,104.3,103.5,Radiocarbon,TRUE,TRUE
+75415,466227,27,NA,100.4,101.2,99.6,Radiocarbon,TRUE,TRUE
