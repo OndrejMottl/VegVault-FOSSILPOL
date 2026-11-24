@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: >-
+  Please cite this release, the original data sources listed in its
+  release notes, and the VegVault data paper
+  (https://doi.org/10.1038/s41597-025-06176-1).
+type: software
+title: "VegVault-FOSSILPOL: fossil pollen data for the VegVault database"
+doi: 10.5281/zenodo.14745059
+authors:
+  - family-names: "Mottl"
+    given-names: "Ondřej"
+    affiliation: "Department of Botany, Faculty of Science, Charles University, Prague, Czech Republic"
+    orcid: "https://orcid.org/0000-0002-9796-5081"
+repository-code: "https://github.com/OndrejMottl/VegVault-FOSSILPOL"
+license: MIT
+keywords:
+  - fossil pollen
+  - palaeoecology
+  - Neotoma
+  - FOSSILPOL
+  - age-depth model
